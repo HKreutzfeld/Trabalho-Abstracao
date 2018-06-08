@@ -72,7 +72,7 @@ public class TelaPerguntas extends javax.swing.JFrame {
         labelErro = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Categoria Carros");
+        setTitle("Perguntas");
         setResizable(false);
 
         labelQuestao.setText("jLabel1");
