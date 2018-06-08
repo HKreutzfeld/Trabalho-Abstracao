@@ -3,8 +3,18 @@ package Classes;
 public class Jogador {
     private String nome;
     private int pontuacao;
+    private String data;
 
-    public Jogador(String nome, int pontuacao) {
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+    
+    public Jogador(String data, String nome, int pontuacao) {
+        this.data = data;
         this.nome = nome;
         this.pontuacao = pontuacao;
     }
@@ -24,7 +34,6 @@ public class Jogador {
     public void setPontuacao(int pontuacao) {
         this.pontuacao = pontuacao;
     }
-    
     
     
 }

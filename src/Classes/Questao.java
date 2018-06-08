@@ -4,7 +4,9 @@ package Classes;
 
 public abstract class Questao {
     private String temaQuestao, pergunta, alternativaum, alternativadois, alternativatres, alternativaquatro, alternativacerta;
-
+    
+    
+    
     public String getTemaQuestao() {
         return temaQuestao;
     }

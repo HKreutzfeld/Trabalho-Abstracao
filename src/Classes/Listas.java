@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Listas {
 
-    static ArrayList<QuestoesCarro>carros = new ArrayList();
-    static ArrayList<QuestoesEsportes>esporte = new ArrayList();
-    static ArrayList<QuestoesGeografia>geografia = new ArrayList();
-    static ArrayList<Jogador>listaJogador = new ArrayList<Jogador>();
+    public static ArrayList<Questao>carros = new ArrayList();
+    public static ArrayList<Questao>esporte = new ArrayList();
+    public static ArrayList<Questao>geografia = new ArrayList();
+    public static ArrayList<Jogador>listaJogador = new ArrayList<Jogador>();
     
 }
